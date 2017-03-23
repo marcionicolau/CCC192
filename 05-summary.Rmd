@@ -3,6 +3,7 @@
 We have finished a nice book.
 
 ```{r, include=FALSE}
+library(tutorial)
 tutorial::go_interactive()
 ```
 
