@@ -4,6 +4,6 @@
 ["literature.html", "Chapter 3 Literature", " Chapter 3 Literature Here is a review of existing methods. "],
 ["methods.html", "Chapter 4 Methods", " Chapter 4 Methods We describe our methods in this chapter. "],
 ["applications.html", "Chapter 5 Applications 5.1 Example one 5.2 Example two", " Chapter 5 Applications Some significant applications are demonstrated in this chapter. 5.1 Example one 5.2 Example two "],
-["final-words.html", "Chapter 6 Final Words 6.1 Sec 1", " Chapter 6 Final Words We have finished a nice book. 6.1 Sec 1 By default, tutorial will convert all R chunks. eyJsYW5ndWFnZSI6InIiLCJzYW1wbGUiOiJhIDwtIDJcbmIgPC0gM1xuXG5hICsgYiJ9 "],
+["final-words.html", "Chapter 6 Final Words 6.1 Sec 1 6.2 Sec 2", " Chapter 6 Final Words We have finished a nice book. 6.1 Sec 1 By default, tutorial will convert all R chunks. eyJsYW5ndWFnZSI6InIiLCJzYW1wbGUiOiJhIDwtIDJcbmIgPC0gM1xuXG5hICsgYiJ9 6.2 Sec 2 eyJsYW5ndWFnZSI6InIiLCJwcmVfZXhlcmNpc2VfY29kZSI6ImIgPC0gNSIsInNhbXBsZSI6IiMgQ3JlYXRlIGEgdmFyaWFibGUgYSwgZXF1YWwgdG8gNVxuXG5cbiMgUHJpbnQgb3V0IGEiLCJzb2x1dGlvbiI6IiMgQ3JlYXRlIGEgdmFyaWFibGUgYSwgZXF1YWwgdG8gNVxuYSA8LSA1XG5cbiMgUHJpbnQgb3V0IGFcbmEiLCJzY3QiOiJ0ZXN0X29iamVjdChcImFcIilcbnRlc3Rfb3V0cHV0X2NvbnRhaW5zKFwiYVwiLCBpbmNvcnJlY3RfbXNnID0gXCJNYWtlIHN1cmUgdG8gcHJpbnQgYGFgLlwiKVxuc3VjY2Vzc19tc2coXCJHcmVhdCFcIikifQ== "],
 ["references.html", "References", " References "]
 ]
