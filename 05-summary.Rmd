@@ -7,7 +7,7 @@ We have finished a nice book.
 ## Sec 1
     
 ```{r, include=FALSE}
-tutorial::go_interactive(greedy=FALSE)
+tutorial::go_interactive()
 ```
 
 By default, `tutorial` will convert all R chunks.
