@@ -2,14 +2,17 @@
 
 We have finished a nice book.
 
+<script src=https://cdn.datacamp.com/datacamp-light-latest.min.js></script>
+
+## Sec 1
+    
 ```{r, include=FALSE}
-library(tutorial)
-tutorial::go_interactive()
+tutorial::go_interactive(greedy=FALSE)
 ```
 
 By default, `tutorial` will convert all R chunks.
 
-```{r}
+```{r tut=TRUE}
 a <- 2
 b <- 3
 
