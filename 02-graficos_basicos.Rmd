@@ -2,4 +2,16 @@
 
 <script src=https://cdn.datacamp.com/datacamp-light-latest.min.js></script>
 
-Here is a review of existing methods.
+Parte importante na ánalise de dados, desenvolvimento de modelos e interpretação de dados é o uso de ferramentas de visualização. Os gráficos são ferramentas poderosas que, em geral, auxilia o analista de dados a entender melhor conceitos e "extrair" informações de forma facilitada quando comparado a versão tabular.
+
+## Histórico
+
+As primeiras versões públicas do R apresentavam um grande diferencial em relação aos outros softwares de análise de dados da época (início 1990) que era a flexibilidade de ajustes e formatos. Esta facilidade e poder de ajustar/alterar todos os itens de um gráfico, aliados a facilidade de codificar modelos de forma facilitada, compoem os principais tópicos do sucesso da ferramenta no que se refere ao seu uso como software de análise de dados e computação científica.
+
+Ao se instalar o R pela primeira vez, o mesmo oferece um conjunto de funcinalidades básicas e muitas outras obitidas por meio de plugins - que são chamadas de _library_ (bibliotecas). Em relação aos gráficos nos temos as seguinte opções (lista não exasustiva):
+
+### Base (_default_)
+
+### Lattice (_lattice_)
+
+### GGPlot2 (_ggplot2_)
