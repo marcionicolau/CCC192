@@ -14,10 +14,10 @@ Ao se instalar o R pela primeira vez, o mesmo oferece um conjunto de funcinalida
 
 Gráficos disponibilidados em toda instalação do R:
 
-  - `r hist`
-  - `r boxplot`
-  - `r plot`
-  - density plot (`r plot(density(.))`)
+  - _hist_
+  - _boxplot_
+  - _plot_
+  - density plot (_plot(density(.))_)
 
 ## Lattice (_lattice_)
 
