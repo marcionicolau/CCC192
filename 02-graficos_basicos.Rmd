@@ -27,11 +27,11 @@ Criar um histograma para analisar medidas de posição e tendência central
 tutorial::go_interactive()
 ```
 
-```{r ex="create_a", type="pre-exercise-code"}
+```{r ex="create_hist", type="pre-exercise-code"}
 x <- rnorm(100,165,20)
 ```
 
-```{r ex="create_a", type="sample-code"}
+```{r ex="create_hist", type="sample-code"}
 # Crie uma variavel x com 100 valores de um distribuição Normal
 # com média 165 cm e variancia 400 cm2.
 
@@ -43,7 +43,7 @@ x <- rnorm(100,165,20)
 
 ```
 
-```{r ex="create_a", type="solution"}
+```{r ex="create_hist", type="solution"}
 # Crie uma variavel x com 100 valores de um distribuição Normal
 # com média 165 cm e variancia 400 cm2.
 x <- rnorm(100,165,20)
@@ -55,7 +55,7 @@ summary(x)
 hist(x, probability = TRUE)
 ```
 
-```{r ex="create_a", type="sct"}
+```{r ex="create_hist", type="sct"}
 test_object("x")
 test_output_contains("summary(x)", incorrect_msg = "Make sure to print `summary(x)`.")
 test_output_contains("hist(x, prob = TRUE)", incorrect_msg = "Make sure to plot histogram `hist(x, prob = TRUE)`.")
