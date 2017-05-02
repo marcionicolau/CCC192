@@ -18,6 +18,49 @@ Gráficos disponibilidados em toda instalação do R:
   - _boxplot_
   - _plot_
   - density plot (_plot(density(.))_)
+  
+### Exercícios
+
+Criar um histograma para analisar medidas de posição e tendência central
+
+```{r, include=FALSE}
+tutorial::go_interactive()
+```
+
+```{r ex="create_a", type="pre-exercise-code"}
+x <- rnorm(100,165,20)
+```
+
+```{r ex="create_a", type="sample-code"}
+# Crie uma variavel x com 100 valores de um distribuição Normal
+# com média 165 cm e variancia 400 cm2.
+
+
+# Imprima o sumário da variavel x
+
+
+# Crie um histograma
+
+```
+
+```{r ex="create_a", type="solution"}
+# Crie uma variavel x com 100 valores de um distribuição Normal
+# com média 165 cm e variancia 400 cm2.
+x <- rnorm(100,165,20)
+
+# Imprima o sumário da variavel x
+summary(x)
+
+# Crie um histograma
+hist(x, probability = TRUE)
+```
+
+```{r ex="create_a", type="sct"}
+test_object("x")
+test_output_contains("summary(x)", incorrect_msg = "Make sure to print `summary(x)`.")
+test_output_contains("hist(x, prob = TRUE)", incorrect_msg = "Make sure to plot histogram `hist(x, prob = TRUE)`.")
+success_msg("Great!")
+```
 
 ## Lattice (_lattice_)
 
