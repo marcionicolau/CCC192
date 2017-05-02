@@ -10,7 +10,7 @@ As primeiras versões públicas do R apresentavam um grande diferencial em rela�
 
 Ao se instalar o R pela primeira vez, o mesmo oferece um conjunto de funcinalidades básicas e muitas outras obitidas por meio de plugins - que são chamadas de _library_ (bibliotecas). Em relação aos gráficos nos temos as seguinte opções (lista não exasustiva):
 
-### Base (_default_)
+## Base (_default_)
 
 Gráficos disponibilidados em toda instalação do R:
 
@@ -19,7 +19,7 @@ Gráficos disponibilidados em toda instalação do R:
   - `r plot`
   - density plot (`r plot(density(.))`)
 
-### Lattice (_lattice_)
+## Lattice (_lattice_)
 
 Gráficos mais elaborados, desenvolvidos no Bell Labs (AT&T / Lucent) e bastante usando no software *S* (antecessor do _R_). Para obter mais informações, tutoriais e alguns exemplos, veja [Lattice Home](http://lattice.r-forge.r-project.org/index.php).
 
@@ -31,7 +31,7 @@ Alguns exemplos de gráficos:
   
 A Lattice, trabalha o conceito de painéis de gráficos (panel e prepanel).  
 
-### GGPlot2 (_ggplot2_)
+## GGPlot2 (_ggplot2_)
 
 Gráficos elaborados, criado a partir do conceito de "Gramática de Gráficos" e desenvolvido na Universidade de IOWA por Hadley Wickham, durante o seu Doutorado. 
 
