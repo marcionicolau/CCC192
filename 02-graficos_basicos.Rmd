@@ -1,3 +1,5 @@
 # Gráficos Básicos no R {#graph_base}
 
+<script src=https://cdn.datacamp.com/datacamp-light-latest.min.js></script>
+
 Here is a review of existing methods.

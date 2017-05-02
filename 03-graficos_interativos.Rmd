@@ -1,3 +1,5 @@
-# Methods
+# Gráficos Interativos e dinâmicos no R {#graph_dyn}
+
+<script src=https://cdn.datacamp.com/datacamp-light-latest.min.js></script>
 
 We describe our methods in this chapter.
