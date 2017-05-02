@@ -12,6 +12,36 @@ Ao se instalar o R pela primeira vez, o mesmo oferece um conjunto de funcinalida
 
 ### Base (_default_)
 
+Gráficos disponibilidados em toda instalação do R:
+
+  - `r hist`
+  - `r boxplot`
+  - `r plot`
+  - density plot (`r plot(density(.))`)
+
 ### Lattice (_lattice_)
 
+Gráficos mais elaborados, desenvolvidos no Bell Labs (AT&T / Lucent) e bastante usando no software *S* (antecessor do _R_). Para obter mais informações, tutoriais e alguns exemplos, veja [Lattice Home](http://lattice.r-forge.r-project.org/index.php).
+
+Alguns exemplos de gráficos:
+
+  - Histogram;
+  - BWPlot (Box-Whisker);
+  - XYPlot;
+  
+A Lattice, trabalha o conceito de painéis de gráficos (panel e prepanel).  
+
 ### GGPlot2 (_ggplot2_)
+
+Gráficos elaborados, criado a partir do conceito de "Gramática de Gráficos" e desenvolvido na Universidade de IOWA por Hadley Wickham, durante o seu Doutorado. 
+
+A GGPlot é a ferramenta mais utilizada atualmente para criar gráficos no R e o tecnica de gramática de gráficos e utilizada em outras ferramentas (Principalmente Javascript) de visualização de dados. Para mais informações, documentação, tutoriais e exemplos, veja em [GGplot2 Home](http://ggplot2.org/).
+
+Alguns exemplos de gráficos:
+
+  - Linhas;
+  - Curvas de ajuste (linear e não-linear);
+  - Pontos;
+  - Paineis;
+  
+A GGPlot, trabalha o conceito de camadas de gráficos (layers).   
