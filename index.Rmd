@@ -1,6 +1,6 @@
 --- 
-title: "A Minimal Book Example"
-author: "Yihui Xie"
+title: "CCC192 UPF 2017/1"
+author: "Marcio Nicolau and Carlos Hölbig"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
@@ -9,8 +9,20 @@ bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 github-repo: rstudio/bookdown-demo
-description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+description: "Conteúdo e exemplos da disciplina CCC192 UPF 2017/1"
 ---
+
+# Conteúdos
+
+1. Revisão Estatística Básica (Laboratório)
+
+2. Gráficos no R (Laboratório)
+
+3. Gráficos interativos no R (Laboratório)
+
+4a. Modelo de Simulação (Teoria)
+
+4b. Modelo e Simulação (Laboratório)
 
 # Prerequisites
 
