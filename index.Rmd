@@ -28,6 +28,6 @@ description: "Conteúdo e exemplos da disciplina CCC192 UPF 2017/1"
 ```{r include=FALSE}
 # automatically create a bib database for R packages
 knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+  .packages(), 'bookdown', 'knitr', 'rmarkdown', 'tidyverse'
 ), 'packages.bib')
 ```

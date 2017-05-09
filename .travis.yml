@@ -7,12 +7,24 @@ cache: packages
 
 apt_packages:
   - libxml2-dev
+  - gdal-dev
+  - geos-dev
 
-r_github_packages: datacamp/tutorial
+r_github_packages:
+  - datacamp/tutorial
+  - ramnathv/rCharts@dev
+  - ramnathv/rMaps
+  - ropensci/plotly
 
 r_packages:
   - lattice
   - ggplot2
+  - tidyverse
+  - leaflet
+  - geojsonio
+  - dygraphs
+  - shinyRGL
+  - googleVis
 
 env:
   global:

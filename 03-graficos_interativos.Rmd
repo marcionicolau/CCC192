@@ -2,4 +2,109 @@
 
 <script src=https://cdn.datacamp.com/datacamp-light-latest.min.js></script>
 
-We describe our methods in this chapter.
+## Trabalhar com informações
+
+Em geral, temos os dados para gerar informações ou extrair conhecimento em formatos diretamente incompativas, por este motivo o processo e análise de dados é fatalmente iniciado por processo conhecido como *ETL* (_Extract-Transform-List_) - tanto na computação como na estaística.
+
+No R, temos o conjunto de pacotes (_libraries_) *tidyverse* que é composto por pacotes que axiliar na tarefa de ETL, obter dados, extrair e trasnformar informações, com fatores, strings, texto, data; no computador ou espalhado pela Web.
+
+Alguns links e referencias, podem ser obtidos na listagem abaixo:
+
+1. (tydeverse)[http://tidyverse.org]
+2. (R for Data Science)[http://r4ds.had.co.nz/]
+
+## Graficos Interativos
+
+0. Webinars
+
+  - (RStudio Interactive Graphics Webinar)[https://www.rstudio.com/resources/webinars/interactive-graphics-with-shiny/]
+
+1. Mapas
+  - (leaflet)[https://rstudio.github.io/leaflet/]
+  - plotGoogleMaps
+  - (rMaps)[https://github.com/ramnathv/rMaps]
+  - googleVis
+
+3. Genéricos
+  - (dygraphs)[https://rstudio.github.io/dygraphs/]
+  - shinyRGL
+  - (rCharts)[https://github.com/ramnathv/rCharts]
+  - (ggplot2 interactive)[https://blog.rstudio.org/2015/06/16/shiny-0-12-interactive-plots-with-ggplot2/]
+  - plotly
+  - ggvis
+
+
+### Segue alguns exemplos
+
+1. Morris (rCharts)
+
+```{r}
+library(rCharts)
+data(economics, package = 'ggplot2')
+econ <- transform(economics, date = as.character(date))
+m1 <- mPlot(x = 'date', y = c('psavert', 'uempmed'), type = 'Line',
+  data = econ)
+m1$set(pointSize = 0, lineWidth = 1)
+m1
+```
+
+2. Poychart (rCharts)
+
+```{r}
+r1 <- rPlot(mpg ~ wt | am + vs, data = mtcars, type = 'point', color = 'gear')
+r1
+```
+
+
+3. NVD3 (rCharts)
+
+```{r}
+hair_eye_male <- subset(as.data.frame(HairEyeColor), Sex == "Male")
+n1 <- nPlot(Freq ~ Hair, group = "Eye", data = hair_eye_male, 
+  type = 'multiBarChart')
+n1
+```
+
+
+4. CrossLet (rMaps)
+
+```{r}
+library(rMaps)
+crosslet(
+  x = "country", 
+  y = c("web_index", "universal_access", "impact_empowerment", "freedom_openness"),
+  data = web_index
+)
+```
+
+5. Leaflet (leaflet)
+
+```{r}
+library(leaflet)
+
+m <- leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng=174.768, lat=-36.852, popup="The birthplace of R")
+m  # Print the map
+```
+
+6. Dygraphs (dygraphs)
+
+```{r}
+library(dygraphs)
+lungDeaths <- cbind(mdeaths, fdeaths)
+dygraph(lungDeaths)
+```
+
+7. Time-series (dygraphs)
+
+```{r}
+hw <- HoltWinters(ldeaths)
+predicted <- predict(hw, n.ahead = 72, prediction.interval = TRUE)
+
+dygraph(predicted, main = "Predicted Lung Deaths (UK)") %>%
+  dyAxis("x", drawGrid = FALSE) %>%
+  dySeries(c("lwr", "fit", "upr"), label = "Deaths") %>%
+  dyOptions(colors = RColorBrewer::brewer.pal(3, "Set1"))
+```
+
