@@ -7,7 +7,7 @@ cache: packages
 
 apt_packages:
   - libxml2-dev
-  - libgdal-dev
+  - libgdal1h-dev
   - libgeos-dev
 
 r_github_packages:
