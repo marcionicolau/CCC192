@@ -11,8 +11,8 @@ apt_packages:
   - libgeos-dev
   - libgdal1-dev
   - libgdal-dev
-  - libgeos-c1=3.3.3-1.1
-  - libspatialite3=3.1.0~rc2-1ubuntu1
+  - libgeos
+  - libgdal
 
 r_github_packages:
   - datacamp/tutorial
