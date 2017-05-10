@@ -10,10 +10,7 @@ apt_packages:
   - libproj-dev
   - libgeos-dev
   - libgdal1-dev
-  - libgdal-dev
-  - libgdal1h
-  - libhdf5-dev
-  - libhdf5-serial-dev
+  - r-cran-rgdal
 
 r_github_packages:
   - datacamp/tutorial
