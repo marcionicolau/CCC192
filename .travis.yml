@@ -7,9 +7,12 @@ cache: packages
 
 apt_packages:
   - libxml2-dev
-  - libgdal1-dev
+  - libproj-dev
   - libgeos-dev
+  - libgdal1-dev
   - libgdal-dev
+  - libgeos-c1=3.3.3-1.1
+  - libspatialite3=3.1.0~rc2-1ubuntu1
 
 r_github_packages:
   - datacamp/tutorial
