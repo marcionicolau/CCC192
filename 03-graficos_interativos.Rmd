@@ -10,28 +10,28 @@ No R, temos o conjunto de pacotes (_libraries_) *tidyverse* que é composto por 
 
 Alguns links e referencias, podem ser obtidos na listagem abaixo:
 
-1. (tydeverse)[http://tidyverse.org]
-2. (R for Data Science)[http://r4ds.had.co.nz/]
+1. [tydeverse](http://tidyverse.org)
+2. [R for Data Science](http://r4ds.had.co.nz/)
 
 ## Graficos Interativos
 
 0. Webinars
 
-  - (RStudio Interactive Graphics Webinar)[https://www.rstudio.com/resources/webinars/interactive-graphics-with-shiny/]
+  - [RStudio Interactive Graphics Webinar](https://www.rstudio.com/resources/webinars/interactive-graphics-with-shiny/)
 
 1. Mapas
-  - (leaflet)[https://rstudio.github.io/leaflet/]
+  - [leaflet](https://rstudio.github.io/leaflet/)
   - plotGoogleMaps
-  - (rMaps)[https://github.com/ramnathv/rMaps]
+  - [rMaps](https://github.com/ramnathv/rMaps)
   - googleVis
 
 3. Genéricos
-  - (dygraphs)[https://rstudio.github.io/dygraphs/]
+  - [dygraphs](https://rstudio.github.io/dygraphs/)
   - shinyRGL
-  - (rCharts)[https://github.com/ramnathv/rCharts]
-  - (ggplot2 interactive)[https://blog.rstudio.org/2015/06/16/shiny-0-12-interactive-plots-with-ggplot2/]
-  - plotly
-  - ggvis
+  - [rCharts](https://github.com/ramnathv/rCharts)
+  - [ggplot2 interactive](https://blog.rstudio.org/2015/06/16/shiny-0-12-interactive-plots-with-ggplot2/)
+  - [plotly](https://github.com/ropensci/plotly)
+  - [ggvis](http://ggvis.rstudio.com/)
 
 
 ### Segue alguns exemplos
