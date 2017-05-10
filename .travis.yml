@@ -23,6 +23,7 @@ apt_packages:
   - mesa-common-dev
   - libglu1-mesa-dev
   - netcdf-bin
+  - libv8-dev
 
 r_github_packages:
   - datacamp/tutorial
@@ -38,6 +39,7 @@ r_packages:
   - geojsonio
   - dygraphs
   - googleVis
+  - V8
 
 env:
   global:
