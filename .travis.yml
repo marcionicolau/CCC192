@@ -9,7 +9,7 @@ apt_packages:
   - libxml2-dev
   - libgdal1-dev
   - libgeos-dev
-  - libgdal1-dev
+  - libgdal-dev
 
 r_github_packages:
   - datacamp/tutorial
