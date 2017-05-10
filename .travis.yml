@@ -37,7 +37,6 @@ r_packages:
   - leaflet
   - geojsonio
   - dygraphs
-  - shinyRGL
   - googleVis
 
 env:
