@@ -12,6 +12,7 @@ apt_packages:
   - libgdal1-dev
   - libgdal-dev
   - libgdal1h
+  - libhdf5-dev
   - libhdf5-serial-dev
 
 r_github_packages:
