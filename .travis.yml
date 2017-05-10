@@ -11,8 +11,6 @@ apt_packages:
   - libgeos-dev
   - libgdal1-dev
   - libgdal-dev
-  - libgeos
-  - libgdal
 
 r_github_packages:
   - datacamp/tutorial
